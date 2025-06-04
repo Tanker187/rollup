@@ -4,6 +4,6 @@ module.exports = () => ({
 	transform(code) {
 		return `console.log('${path
 			.relative(process.cwd(), __filename)
-			.replace('\\', '/')}');\n${code}`;
+			.replace(/\\/g, '/')}');\n${code}`;
 	}
 });
