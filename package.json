@@ -199,7 +199,7 @@
     "vitepress": "^1.6.3",
     "vue": "^3.5.15",
     "vue-tsc": "^2.2.10",
-    "wasm-pack": "^0.13.1",
+    "wasm-pack": "^0.15.0",
     "yargs-parser": "^21.1.1"
   },
   "overrides": {
